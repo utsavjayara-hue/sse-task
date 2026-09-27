@@ -2,6 +2,9 @@
 #include <vector>
 
 using namespace std;
+// time complexity:O(n^2)
+// space complexity:O(1)
+// stable
 
 void bubbleSort(vector<int> &list)
 {
