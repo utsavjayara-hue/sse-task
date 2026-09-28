@@ -28,7 +28,7 @@ void bubbleSort(vector<int> &list)
 
 int main()
 {
-    vector<int> test = {1, 2, 90, 7, 30, 800, 100};
+    vector<int> test = {1, 2, 90, 7, 30, 30, 800, 100};
     bubbleSort(test);
     for (int x : test)
     {

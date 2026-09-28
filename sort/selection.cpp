@@ -25,7 +25,7 @@ void selectionSort(vector<int> &input)
 
 int main()
 {
-    vector<int> test = {1, 10, 9, 12, 11, 6, 67};
+    vector<int> test = {1, 10, 9, 12, 12, 11, 6, 67};
     selectionSort(test);
     for (int x : test)
     {
